@@ -12,7 +12,7 @@ public class UsersPage {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
-    @FindBy (xpath = "//a[contains (@class,'unseen')]")
+    @FindBy (xpath = "(//a[contains (@class,'unseen')])[1]")
     public static WebElement newMessage;
 
     @FindBy (xpath = "//a[contains(@title,'Входящие')]")
@@ -51,8 +51,11 @@ public class UsersPage {
     @FindBy (xpath = "//button[text()='Выход']")//Только после нажатия на userMenu
     public static WebElement logOutButton;
 
-    @FindBy (css = "#receivers")
+    @FindBy (xpath = "//label[@for ='receivers']/..")
     public static WebElement receiversField; //Только после нажатия на writeNewLetterButton
+
+    @FindBy (xpath = "//input[@id='receivers']")
+    public static WebElement receiversFieldPaste; //Только после нажатия на writeNewLetterButton
 
     @FindBy (css = "#subject")
     public static WebElement subjectField;//Только после нажатия на writeNewLetterButton
@@ -60,7 +63,7 @@ public class UsersPage {
     @FindBy (xpath = "//body[contains(@aria-label,'Поле')]")//Только после нажатия на writeNewLetterButton
     public static WebElement writeField;
 
-    @FindBy (xpath = "//span[text()='Отправить']")
+    @FindBy (xpath = "//span[text()='Отправить']/..")
     public static WebElement sendLetter;
 
     @FindBy (xpath = "//span[text()='Сохранить черновик']")
@@ -71,6 +74,41 @@ public class UsersPage {
 
     @FindBy (xpath = "//div[@data-list-view='draft-edit']")
     public static WebElement editDraftletter;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/SentBox/')]/div[4]/div[1]/span[1]/following-sibling::span)[1]")
+    public static WebElement mailTextMin;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/INBOX/')]/div[4]/div[1]/span[1]/following-sibling::span)[1]")
+    public static WebElement newMailTextmin;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/SentBox/')]/div[4]/div[1]/span)[1]")
+    public static WebElement mailSubject;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/INBOX/')]/div[4]/div[1]/span)[1]")
+    public static WebElement newMailSubject;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/SentBox/')]/div[3]/span)[1]")
+    public static WebElement mailLoginPostAdr;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/INBOX/')]/div[3]/span)[1]")
+    public static WebElement newMailLoginPostAdr;
+
+    @FindBy (xpath = "//h2[contains(@class, 'LetterHeader-subject')]")
+    public static WebElement messageSubject;
+
+    @FindBy (xpath = "//div[contains(@class, 'LetterHeader-from')]/span/span/span")
+    public static WebElement messageFrom;
+
+    @FindBy (xpath = "//div[contains(@class, 'Recipients-to')]/span/span/span/span/span")
+    public static WebElement messageTo;
+
+    @FindBy (xpath = "//div[@class='messageBody']/div/div")
+    public static WebElement messageText;
+
+    @FindBy (xpath = "//span[text()='Отправить']/..")
+    public static WebElement quicksendButton;
+
+
 
 
 }

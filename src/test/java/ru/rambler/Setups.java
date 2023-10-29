@@ -1,9 +1,13 @@
 package ru.rambler;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -29,9 +33,12 @@ public class Setups {
         driver.get("https://mail.rambler.ru/folder/INBOX");
 
 
+
     }
-    @AfterClass
+    @AfterClass ()
     public static void turnOff() {
         driver.quit();
     }
+
+
 }

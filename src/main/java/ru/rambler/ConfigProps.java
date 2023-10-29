@@ -27,6 +27,8 @@ public interface ConfigProps extends Config {
     String login2PostAdr();
     @Key("topicField")
     String topicExample();
-    @Key("mailField")
+    @Key("mailField2")
     String mailExample();
+    @Key("name.login1")
+    String namelogin1();
 }
