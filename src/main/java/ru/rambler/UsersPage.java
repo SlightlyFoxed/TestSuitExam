@@ -69,10 +69,19 @@ public class UsersPage {
     @FindBy (xpath = "//span[text()='Сохранить черновик']")
     public static WebElement saveTheDraft;
 
-    @FindBy (xpath = "//span[text()='knock-knockout@rambler.ru']")
-    public static WebElement openDraftLetter;
+    @FindBy (xpath = "(//a[contains(@title,'Черновики')]/div/div)[2]")
+    public static WebElement draftCounter;
 
-    @FindBy (xpath = "//div[@data-list-view='draft-edit']")
+    @FindBy (xpath = "(//a[contains(@href,'/folder/DraftBox/')]/div[4]/div[1]/span[1]/following-sibling::span)[1]")
+    public static WebElement draftMailTextMin;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/DraftBox/')]/div[4]/div[1]/span)[1]")
+    public static WebElement draftMailSubjectMin;
+
+    @FindBy (xpath = "(//a[contains(@href,'/folder/DraftBox/')]/div[3]/span)[1]")
+    public static WebElement draftMailLoginPostAdr2;
+
+    @FindBy (xpath = "(//span[contains(text(),'Редактировать')]/..)[2]")
     public static WebElement editDraftletter;
 
     @FindBy (xpath = "(//a[contains(@href,'/folder/SentBox/')]/div[4]/div[1]/span[1]/following-sibling::span)[1]")
@@ -104,6 +113,9 @@ public class UsersPage {
 
     @FindBy (xpath = "//div[@class='messageBody']/div/div")
     public static WebElement messageText;
+
+    @FindBy (xpath = "//div[contains(@class,'QuickReply')]/textarea")
+    public static WebElement quickReplyField;
 
     @FindBy (xpath = "//span[text()='Отправить']/..")
     public static WebElement quicksendButton;

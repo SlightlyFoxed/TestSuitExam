@@ -25,9 +25,9 @@ public class Test1 {
 
         realizationMethods.autorization(confProp.login1(), confProp.password1());
 
-        //loginPage.logOut();
+        loginPage.logOut();
 
-        //turnOff();
+        turnOff();
     }
 
 

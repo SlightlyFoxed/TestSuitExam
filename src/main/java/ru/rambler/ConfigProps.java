@@ -31,4 +31,6 @@ public interface ConfigProps extends Config {
     String mailExample();
     @Key("name.login1")
     String namelogin1();
+    @Key("login3.fake")
+    String fakeLogin();
 }

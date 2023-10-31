@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import static ru.rambler.Setups.*;
 
 
-public class Test2 {
+public class Test3 {
 
     UsersPage usersPage = PageFactory.initElements(driver,UsersPage.class);
 
@@ -25,17 +25,9 @@ public class Test2 {
 
         realizationMethods.autorization(confProp.login1(), confProp.password1());
 
-        realizationMethods.writeMessage(confProp.login2PostAdr(),confProp.topicExample(),confProp.mailExample());
+        realizationMethods.saveDraftLetter(confProp.login2PostAdr(),confProp.topicExample(),confProp.mailExample());
 
-        loginPage.logOut();
-
-        realizationMethods.secondAutorization(confProp.login2(), confProp.password2());
-
-        realizationMethods.checkNewMessage();
-
-        loginPage.logOut();
-
-        turnOff();
     }
 
 }
+

@@ -33,10 +33,10 @@ public class LoginPage {
     @FindBy(css = "#password")
     public static WebElement passwordField;
 
-    @FindBy(xpath = "//span[contains(text(),'Войти')]/..")
+    @FindBy(xpath = "//button[@type='submit']")
     public static WebElement entryButton;
 
-    @FindBy(xpath = "//a[@href='https://mail.rambler.ru/folder/INBOX']/span")
+    @FindBy(xpath = "//a[@href='https://mail.rambler.ru/folder/INBOX']")
     public static WebElement toTheInbox;
 
     @FindBy(xpath = "//span[text()='knock-knockout']")
