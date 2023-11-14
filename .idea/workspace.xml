@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8176120-dd63-406e-b392-e25a29403b8e" name="Changes" comment="First done version autotest.&#10;Second done version autotest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/rambler/Test3.java" afterDir="false" />
+    <list default="true" id="b8176120-dd63-406e-b392-e25a29403b8e" name="Changes" comment="ALL UI DONE SUIT TEST WITHOUT ALLURE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CategoryPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CategoryPostPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/PhotoUrlsPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/RootPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/RootPostPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/TagPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/TagsPostPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/swagger/petstore/Specifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/swagger/petstore/SwaggerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/swagger/petstore/SwaggerTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/swagger/petstore/SwaggerTest3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rambler/ConfigProps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rambler/ConfigProps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rambler/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rambler/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rambler/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rambler/UsersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credentials.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rambler/RealizationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rambler/RealizationMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rambler/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rambler/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rambler/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rambler/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,52 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "D:/IntelliJ IDEAD/IntelliJ IDEA Community Edition 2022.2.3/Projects/TestSuitExam/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.rambler" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test3.mailToMailFrom">
-    <configuration name="Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SwaggerTest2">
+    <configuration name="SwaggerTest1.getPet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rambler.*" />
+          <option name="PATTERN" value="io.swagger.petstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.rambler" />
-      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.enterToFirstAcc" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestSuitExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.rambler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.rambler" />
-      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test1" />
-      <option name="METHOD_NAME" value="enterToFirstAcc" />
+      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
+      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest1" />
+      <option name="METHOD_NAME" value="getPet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.mailToMailFrom" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwaggerTest1.getPetCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rambler.*" />
+          <option name="PATTERN" value="io.swagger.petstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.rambler" />
-      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test2" />
-      <option name="METHOD_NAME" value="mailToMailFrom" />
+      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
+      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest1" />
+      <option name="METHOD_NAME" value="getPetCategory" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,16 +100,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwaggerTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rambler.*" />
+          <option name="PATTERN" value="io.swagger.petstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.rambler" />
-      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test3" />
+      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
+      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,17 +117,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3.mailToMailFrom" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwaggerTest2.putPetAssert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rambler.*" />
+          <option name="PATTERN" value="io.swagger.petstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.rambler" />
-      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test3" />
-      <option name="METHOD_NAME" value="mailToMailFrom" />
+      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
+      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest2" />
+      <option name="METHOD_NAME" value="putPetAssert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerTest2.testPostPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSuitExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.swagger.petstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
+      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest2" />
+      <option name="METHOD_NAME" value="testPostPet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test3.mailToMailFrom" />
-        <item itemvalue="TestNG.Test2.mailToMailFrom" />
-        <item itemvalue="TestNG.Test3" />
-        <item itemvalue="TestNG.Test1.enterToFirstAcc" />
-        <item itemvalue="TestNG.Test1" />
+        <item itemvalue="TestNG.SwaggerTest2" />
+        <item itemvalue="TestNG.SwaggerTest2.putPetAssert" />
+        <item itemvalue="TestNG.SwaggerTest1.getPetCategory" />
+        <item itemvalue="TestNG.SwaggerTest2.testPostPet" />
+        <item itemvalue="TestNG.SwaggerTest1.getPet" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698554619465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ALL UI DONE SUIT TEST WITHOUT ALLURE">
+      <created>1698795342240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698795342240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First undone version autotest." />
     <MESSAGE value="First done version autotest.&#10;Second done version autotest" />
-    <option name="LAST_COMMIT_MESSAGE" value="First done version autotest.&#10;Second done version autotest" />
+    <MESSAGE value="ALL UI DONE SUIT TEST WITHOUT ALLURE" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALL UI DONE SUIT TEST WITHOUT ALLURE" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
