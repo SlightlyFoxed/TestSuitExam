@@ -1,4 +1,5 @@
 package ru.rambler;
+import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
 
 import ru.rambler.RealizationMethods.*;
@@ -19,13 +20,17 @@ public class Test3 {
 
 
 
-    @Test()
+    @Test(suiteName = "Тестирование UI",testName ="Тест функционала черновиков")
     public void mailToMailFrom() throws InterruptedException {
         settings();
 
         realizationMethods.autorization(confProp.login1(), confProp.password1());
 
         realizationMethods.saveDraftLetter(confProp.login2PostAdr(),confProp.topicExample(),confProp.mailExample());
+
+        loginPage.logOut();
+
+        turnOff();
 
     }
 

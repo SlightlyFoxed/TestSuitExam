@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Тестирование UI"  >
+    <test name="Авторизация пользователя" allow-return-values="true">
+        <classes>
+            <class name ="ru.rambler.Test1" />
+        </classes>
+    </test>
+    <test name="Написание письма и проверка его получения" allow-return-values="true">
+        <classes>
+            <class name ="ru.rambler.Test2" />
+        </classes>
+    </test>
+    <test name="Тест функционала черновиков" allow-return-values="true">
+        <classes>
+            <class name ="ru.rambler.Test3" />
+        </classes>
+    </test>
+</suite>

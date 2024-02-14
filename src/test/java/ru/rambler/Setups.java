@@ -1,5 +1,6 @@
 package ru.rambler;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -36,6 +37,7 @@ public class Setups {
 
     }
     @AfterClass ()
+    @Step("Выключение")
     public static void turnOff() {
         driver.quit();
     }

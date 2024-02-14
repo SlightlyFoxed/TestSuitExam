@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.when;
 public class SwaggerTest1 {
     private final static String URL = "https://petstore.swagger.io/";
 
-    @Test
+    @Test(testName = "Получение собаки (Get запрос)")
     public void getPetCategory (){
         Specifications.installSpecification(Specifications.requestSpec(URL),Specifications.responseSpecOK200());
         RootPostPojo petCategory = given()

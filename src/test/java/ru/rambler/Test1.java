@@ -1,11 +1,13 @@
 package ru.rambler;
 
+import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
 
 import ru.rambler.RealizationMethods.*;
 import org.openqa.selenium.support.PageFactory;
 
 import static ru.rambler.Setups.*;
+
 
 
 public class Test1 {
@@ -19,7 +21,7 @@ public class Test1 {
     private static final ConfigProps confProp = ConfigProps.conf;
 
 
-    @Test(retryAnalyzer = Retry.class)
+    @Test(suiteName = "Тестирование UI",testName = "Авторизация пользователя",retryAnalyzer = Retry.class)
     public void enterToFirstAcc() throws InterruptedException {
         settings();
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Тестирование API"  >
+    <test name="Тесты работы с API PetStore" allow-return-values="true">
+        <classes>
+            <class name ="io.swagger.petstore.SwaggerTest2" />
+        </classes>
+    </test>
+</suite>

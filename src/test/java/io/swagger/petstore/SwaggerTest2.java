@@ -1,8 +1,12 @@
 package io.swagger.petstore;
 
 import api.*;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -18,6 +22,7 @@ public class SwaggerTest2 {
     static RootPostPojo rootPostPojo1;
     private final static String URL = "https://petstore.swagger.io/";
 
+    @Step("Создание body для собаки")
     public static void createDog(){
         tagsPostPojo1 = new TagsPostPojo();
         tagsPostPojo1.setId(1400);
@@ -36,6 +41,7 @@ public class SwaggerTest2 {
         rootPostPojo1.setTags(new TagsPostPojo[]{tagsPostPojo1});
         rootPostPojo1.setStatus("available");
     }
+    @Step("Создание body для собаки с помощью HashMap")
     public void createDogWithHash (){
         HashMap tagsMap = new HashMap();
         tagsMap.put("id", 1400);
@@ -52,9 +58,7 @@ public class SwaggerTest2 {
         doggy1.put("status", "available");
     }
 
-    @Test(priority = 1)
-
-
+    @Test(priority = 1,suiteName ="Тесты работы с API PetStore",testName = "Создание собаки (POST запрос)",description = "Создание собаки (POST запрос)")
     public static void testPostPet () {
         createDog();
 
@@ -95,7 +99,8 @@ public class SwaggerTest2 {
                          "tags[0].name",equalTo(tagsPostPojo1.getName()))
                 .log().all();
     }
-    @Test (priority = 2)
+    @Test (priority = 2,suiteName ="Тесты работы с API PetStore",testName = "Получение собаки (Get запрос)",description = "Получение собаки (Get запрос)")
+    @Attachment
     public void getPetAssert (){
         Specifications.installSpecification(Specifications.requestSpec(URL),Specifications.responseSpecOK200());
         RootPostPojo petCategory = given()
@@ -111,7 +116,7 @@ public class SwaggerTest2 {
                 .log().all()
                 .extract().body().jsonPath().getObject("category",RootPostPojo.class);
     }
-    @Test (priority = 3)
+    @Test (priority = 3,suiteName ="Тесты работы с API PetStore",testName ="Изменение собаки (PUT запрос)",description = "Изменение собаки (PUT запрос)")
     public void putPetAssert (){
         createDog();
         rootPostPojo1.setName("Dristun");
@@ -136,7 +141,7 @@ public class SwaggerTest2 {
                 .log().all();
 
     }
-    @Test (priority = 4)
+    @Test (priority = 4,suiteName ="Тесты работы с API PetStore",testName = "Удаление собаки (DELETE запрос)",description = "Удаление собаки (DELETE запрос)")
     public void deletePet (){
         given()
                 .baseUri(URL)

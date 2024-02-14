@@ -1,11 +1,11 @@
 package ru.rambler;
+import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
 
 import ru.rambler.RealizationMethods.*;
 import org.openqa.selenium.support.PageFactory;
 
 import static ru.rambler.Setups.*;
-
 
 public class Test2 {
 
@@ -19,7 +19,7 @@ public class Test2 {
 
 
 
-    @Test()
+    @Test(suiteName = "Тестирование UI",testName = "Написание письма и проверка его получения")
     public void mailToMailFrom() throws InterruptedException {
         settings();
 

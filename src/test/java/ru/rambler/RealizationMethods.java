@@ -1,6 +1,8 @@
 package ru.rambler;
 
 import groovyjarjarantlr4.v4.runtime.misc.NotNull;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 
@@ -28,6 +30,7 @@ public class RealizationMethods {
     private static final ConfigProps confProp = ConfigProps.conf;
 
 
+    @Step("Прожатие кнопки 'Войти'")
     public void entryButtonClicker(){
             while (entryButton.isEnabled()){
                 entryButton.click();
@@ -35,6 +38,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка содержимого отправленного письма на соответствие")
     public boolean sendMailContains(String mailTextmin1, String mailSubject1, String mailLoginPostAdr2) {
 
         String s1 = mailTextMin.getText();
@@ -53,6 +57,7 @@ public class RealizationMethods {
         }
     }
 
+    @Step("Проверка содержимого нового письма на соответствие")
     public boolean newMailContains(String mailTextmin1, String mailSubject1, String mailLoginPostAdr2) {
 
         String s1 = newMailTextmin.getText();
@@ -72,6 +77,7 @@ public class RealizationMethods {
             return false;
         }
     }
+    @Step("Проверка содержимого черновика на соответствие")
     public boolean draftMailContainsMin(String mailTextmin1, String mailSubject1, String mailLoginPostAdr2) {
 
         String s1 = draftMailTextMin.getText();
@@ -92,6 +98,7 @@ public class RealizationMethods {
         }
     }
 
+    @Step("Проверка содержимого письма на соответствие")
     public boolean openMailCont(String subject, String from, String to, String text) {
         String s1 = messageSubject.getText();
         String s2 = messageFrom.getText();
@@ -113,6 +120,7 @@ public class RealizationMethods {
     }
 
 
+    @Step("Авторизация пользователя")
     public void autorization(String login, String pass) {
 
         WebElement iframeAppPanel = driver.findElement(By.xpath("//iframe[contains(@src,'https://id.rambler.ru/login-20/login?')]"));
@@ -147,6 +155,8 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка изменения кнопки 'Войти'")
+    @Description("Кнопка должна измениться на 1 новое письмо или х-новых писем")
     public static void checkMessageButton() {
         String s1 = toTheInbox.getText();
         String s2 = "1 новое письмо";
@@ -164,6 +174,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Авторизация второго пользователя")
     public void secondAutorization(String login, String pass) {
         loginButton.click();
 
@@ -195,6 +206,8 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка активности кнопки 'Быстрый ответ'")
+    @Description("Изначально кнопка должна быть не активна, пока пользователь не нажмет на поле быстрого ответа")
     public void assertQuicksendBtn() {
         String actualAttr = quicksendButton.getAttribute("disabled");
         String expectedAttr = "true";
@@ -209,6 +222,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка получения нового письма")
     public void checkNewMessage() {
 
         newMessage.isDisplayed();
@@ -227,6 +241,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Написание письма")
     public void writeMessage(String receiver, String topic, String mailText) throws InterruptedException {
         /*String accWindowId = driver.getWindowHandle();
 
@@ -295,6 +310,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка счетчика черновиков")
     public void draftCounterAssert (String beforeSave, String afterSave)
     {
         if (beforeSave.equals(afterSave))
@@ -305,6 +321,7 @@ public class RealizationMethods {
         }
     }
 
+    @Step("Проверка нахождения на нужной странице")
     public void assertUrl (String expextedUlr)
     {
         String currentUrl = driver.getCurrentUrl();
@@ -312,17 +329,21 @@ public class RealizationMethods {
         Assert.assertEquals(currentUrl,expextedUlr);
     }
 
+    @Step("Ожидание окончательной загрузки страницы")
     public void waitForFinallyDownload (){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
                 wait.until((ExpectedCondition<Boolean>) wd ->
                 ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
     }
+    @Step("Ожидание изменения статуса кнопки")
     public void waitForBtn(WebElement btn)
     {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
 
         wait.until(ExpectedConditions.visibilityOf(btn));
     }
+    @Step("Сохранение черновика")
+    @Description("Проверка возможности редактирования полей черновика, а так же изменение счетчика черновиков при создании нового")
     public void saveDraftLetter(String receiver, String topic, String mailText)throws InterruptedException
     {
 
@@ -400,6 +421,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Написание нового черновика")
     public void newDraftMessage (String receiver, String topic, String mailText) throws InterruptedException {
         driver.switchTo().defaultContent();
 
@@ -435,6 +457,7 @@ public class RealizationMethods {
 
         saveTheDraft.click();
     }
+    @Step("Проверка редактирования поля 'Тема'")
     public void editSubjectCheck(String topic) throws InterruptedException {
 
         draftMailTextMin.click();
@@ -455,6 +478,7 @@ public class RealizationMethods {
 
     }
 
+    @Step("Проверка редактирования текста письма")
     public void editTextCheck (String text) throws InterruptedException {
 
         draftMailTextMin.click();
@@ -482,6 +506,7 @@ public class RealizationMethods {
         Assert.assertNotEquals(text,messageText.getText());
 
     }
+    @Step("Проверка редактирования поля 'Кому'")
     public void editToCheck (String login) throws InterruptedException {
         draftMailTextMin.click();
 
@@ -504,6 +529,7 @@ public class RealizationMethods {
         Assert.assertNotEquals(login,messageTo.getText());
     }
 
+    @Step("Проверка редактирования всех полей письма")
     public void editAllFieldsCheck (String topic, String login, String text) throws InterruptedException {
         draftMailTextMin.click();
 

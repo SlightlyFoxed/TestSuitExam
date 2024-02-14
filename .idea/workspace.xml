@@ -4,116 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8176120-dd63-406e-b392-e25a29403b8e" name="Changes" comment="Rest Api Testing Done Without Allure">
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/bin/allure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/bin/allure.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/config/allure-cucumber.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/config/allure-junit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/config/allure.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/allure-commandline-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/allure-generator-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/allure-model-2.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/allure-plugin-api-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/annotations-15.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-collections4-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-io-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-lang3-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/commons-text-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/config/jetty-logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-ast-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-builder-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-collection-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-data-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-dependency-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-format-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-html-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-misc-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-sequence-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/flexmark-util-visitor-0.62.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/freemarker-2.3.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/httpclient-4.5.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/httpcore-4.4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-annotations-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-core-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-databind-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-dataformat-xml-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-dataformat-yaml-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jackson-module-jaxb-annotations-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jakarta.activation-api-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jakarta.xml.bind-api-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jcommander-1.81.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jetty-http-9.4.20.v20190813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jetty-io-9.4.20.v20190813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jetty-server-9.4.20.v20190813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/jetty-util-9.4.20.v20190813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/opencsv-4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/slf4j-api-1.7.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/slf4j-log4j12-1.7.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/snakeyaml-1.27.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/stax2-api-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/tika-core-1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/lib/woodstox-core-6.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/behaviors-plugin/behaviors-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/custom-logo-plugin/custom-logo-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/jira-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/allure-jira-commons-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/jackson-annotations-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/jackson-core-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/jackson-databind-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/okio-1.15.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/jira-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/junit-xml-plugin/junit-xml-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/packages-plugin/packages-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/screen-diff-plugin/screen-diff-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/trx-plugin/trx-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xctest-plugin/xctest-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/allure-jira-commons-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/jackson-annotations-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/jackson-core-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/jackson-databind-2.12.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/okio-1.15.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xray-plugin/xray-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.14.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8176120-dd63-406e-b392-e25a29403b8e" name="Changes" comment="Add Allure Report&#10;Raised the DB and add JDBC" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="XML Properties File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -142,56 +33,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "D:/IntelliJ IDEAD/IntelliJ IDEA Community Edition 2022.2.3/Projects/TestSuitExam/src/test/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/IntelliJ IDEAD/IntelliJ IDEA Community Edition 2022.2.3/Projects/TestSuitExam/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAD\IntelliJ IDEA Community Edition 2022.2.3\Projects\TestSuitExam\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.rambler" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwaggerTest2">
-    <configuration name="SwaggerTest1.getPet" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DataBase">
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbcExam.DataBase" />
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.swagger.petstore.*" />
+          <option name="PATTERN" value="jdbcExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
-      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest1" />
-      <option name="METHOD_NAME" value="getPet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerTest1.getPetCategory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/IntelliJ IDEAD/IntelliJ IDEA Community Edition 2022.2.3/Projects/TestSuitExam/src/main/resources/suiteAPI.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.swagger.petstore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
-      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest1" />
-      <option name="METHOD_NAME" value="getPetCategory" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suiteAPI.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -215,17 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerTest2.putPetAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.enterToFirstAcc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.swagger.petstore.*" />
+          <option name="PATTERN" value="jdbcExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
-      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest2" />
-      <option name="METHOD_NAME" value="putPetAssert" />
+      <option name="PACKAGE_NAME" value="ru.rambler" />
+      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test1" />
+      <option name="METHOD_NAME" value="enterToFirstAcc" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -233,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerTest2.testPostPet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3.mailToMailFrom" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSuitExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.swagger.petstore.*" />
+          <option name="PATTERN" value="jdbcExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.swagger.petstore" />
-      <option name="MAIN_CLASS_NAME" value="io.swagger.petstore.SwaggerTest2" />
-      <option name="METHOD_NAME" value="testPostPet" />
+      <option name="PACKAGE_NAME" value="ru.rambler" />
+      <option name="MAIN_CLASS_NAME" value="ru.rambler.Test3" />
+      <option name="METHOD_NAME" value="mailToMailFrom" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -253,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataBase" />
+        <item itemvalue="TestNG.Test1.enterToFirstAcc" />
+        <item itemvalue="TestNG.Test3.mailToMailFrom" />
         <item itemvalue="TestNG.SwaggerTest2" />
-        <item itemvalue="TestNG.SwaggerTest1.getPetCategory" />
-        <item itemvalue="TestNG.SwaggerTest2.putPetAssert" />
-        <item itemvalue="TestNG.SwaggerTest2.testPostPet" />
-        <item itemvalue="TestNG.SwaggerTest1.getPet" />
+        <item itemvalue="TestNG.D:/IntelliJ IDEAD/IntelliJ IDEA Community Edition 2022.2.3/Projects/TestSuitExam/src/main/resources/suiteAPI.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699957531010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rest Api Testing Done.&#10;Starting To Add Allure Report">
+      <created>1700873284749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700873284749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +206,8 @@
     <MESSAGE value="First done version autotest.&#10;Second done version autotest" />
     <MESSAGE value="ALL UI DONE SUIT TEST WITHOUT ALLURE" />
     <MESSAGE value="Rest Api Testing Done Without Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Api Testing Done Without Allure" />
+    <MESSAGE value="Rest Api Testing Done.&#10;Starting To Add Allure Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Api Testing Done.&#10;Starting To Add Allure Report" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
@@ -326,5 +215,9 @@
         <PinnedItemInfo parentTag="org.openqa.selenium.By$Remotable$Parameters" memberName="using" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
